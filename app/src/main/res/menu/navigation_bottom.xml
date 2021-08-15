@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navVocabulary"
+        android:icon="@drawable/ic_vocabulary"
+        android:title="Home"/>
+    <item
+        android:id="@+id/navGrammar"
+        android:icon="@drawable/ic_grammar"
+        android:title="Account"/>
+    <item
+        android:id="@+id/navAccount"
+        android:icon="@drawable/ic_user"
+        android:title="Account"/>
+    <item
+        android:id="@+id/navSetting"
+        android:icon="@drawable/ic_notification"
+        android:title="Setting"/>
+</menu>

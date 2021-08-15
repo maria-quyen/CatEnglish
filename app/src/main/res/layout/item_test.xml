@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linearTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/type_admin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCauTL"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tvCauHoiTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Câu hỏi..."
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:lines="2"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0048FF"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/checkA"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"/>
+            <CheckBox
+                android:id="@+id/checkBoxA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Câu A"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:layout_marginBottom="12dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/checkB"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"/>
+            <CheckBox
+                android:id="@+id/checkBoxB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Câu B"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:layout_marginBottom="12dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/checkC"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"/>
+            <CheckBox
+                android:id="@+id/checkBoxC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Câu C"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:layout_marginBottom="12dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/checkD"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"/>
+            <CheckBox
+                android:id="@+id/checkBoxD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Câu D"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:layout_marginBottom="12dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

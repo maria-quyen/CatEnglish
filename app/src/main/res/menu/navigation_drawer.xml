@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_hand_cat"
+        android:title="Home"/>
+
+    <item android:id="@+id/menu_vocabulary"
+        android:icon="@drawable/ic_hand_cat"
+        android:title="Vocabulary"/>
+
+    <item android:id="@+id/menu_grammar"
+        android:icon="@drawable/ic_hand_cat"
+        android:title="Grammar"/>
+
+
+    <item android:title="Personal">
+        <menu>
+             <item android:id="@+id/menu_profile"
+                android:icon="@drawable/ic_hand_cat"
+                android:title="Profile"/>
+
+            <item
+                android:id="@+id/menu_inbox"
+                android:icon="@drawable/ic_hand_cat"
+                android:title="Inbox"/>
+        </menu>
+    </item>
+
+    <item android:title="Orthers">
+        <menu>
+            <item
+                android:id="@+id/menu_settings"
+                android:icon="@drawable/ic_hand_cat"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/menu_support"
+                android:icon="@drawable/ic_hand_cat"
+                android:title="Support"/>
+
+        </menu>
+    </item>
+</menu>

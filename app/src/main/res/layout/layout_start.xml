@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD8403"
+    android:gravity="center"
+    tools:context=".start.StartActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/type_vocabulary">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_cat"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAT ENGLISH"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1 chiếc app dễ thương để học tiếng Anh"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0040FF"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

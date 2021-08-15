@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linearTests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/type_admin">
+        <TextView
+            android:id="@+id/txtMaBaiTest"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/txtTenBaiTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên bài test"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_margin="12dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/type_button_login"
+            android:backgroundTint="#ECD685">
+            <TextView
+                android:id="@+id/txtCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số xu"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_margin="12dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_coin"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

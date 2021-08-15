@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/riv_TaiKhoan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bg_cats"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tvTenTKChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên tài khoản"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:maxLines="1"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:id="@+id/tvTinMoiNhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email@gmail.com"
+                android:textColor="#FF3300"
+                android:textSize="18dp"
+                android:maxLines="1"
+                android:paddingTop="5dp"/>
+            <TextView
+                android:id="@+id/tvTinNhanMoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tin mới nhất"
+                android:textColor="#0037FF"
+                android:textSize="18dp"
+                android:maxLines="1"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/showOn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/type_online"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"/>
+
+</androidx.cardview.widget.CardView>

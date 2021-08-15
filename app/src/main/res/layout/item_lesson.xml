@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLesson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/type_lesson"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtIdLesson"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/txtIdGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/txtNameLesson"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tên bài học"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:padding="22dp"/>
+        <ImageView
+            android:id="@+id/imgFlashcard"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_flashcard"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/imgPuzzle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_puzzle"
+            android:layout_margin="10dp"/>
+        <ImageView
+            android:id="@+id/imgQuiz"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_quiz"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

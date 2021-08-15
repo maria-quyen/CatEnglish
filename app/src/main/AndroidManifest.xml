@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uef.appenglish123">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_cat"
+        android:label="Cat English"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppEnglish123">
+        <activity android:name=".start.ViewDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".start.SettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".start.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".admin.AddVocabularyActivity" />
+        <activity android:name=".admin.AdminVocabularyActivity" />
+        <activity android:name=".admin.AdminLessonActivity" />
+        <activity android:name=".quiz.PuzzleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".quiz.FlashcardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin.AddQuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.StartTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vocabulary.VocabularyDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vocabulary.VocabularyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vocabulary.LessonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".start.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".start.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".start.StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

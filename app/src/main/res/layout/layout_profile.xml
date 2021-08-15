@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/img_HinhTK"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bg_car"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/tv_TenTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên TK"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="email@gmail.com"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnGuiLoiMoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GỬI LỜI MỜI"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GỬI LỜI MỜI"/>
+
+
+
+</LinearLayout>

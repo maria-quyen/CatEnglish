@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.uef.appenglish123.fragment.HomeFragment"
+        android:label="CAT ENGLISH"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menu_vocabulary"
+        android:name="com.uef.appenglish123.fragment.VocabularyFragment"
+        android:label="CAT ENGLISH"
+        tools:layout="@layout/fragment_vocabulary" />
+    <fragment
+        android:id="@+id/menu_grammar"
+        android:name="com.uef.appenglish123.fragment.GrammarFragment"
+        android:label="CAT ENGLISH"
+        tools:layout="@layout/fragment_grammar" />
+    <fragment
+        android:id="@+id/menu_profile"
+        android:name="com.uef.appenglish123.fragment.ProfileFragment"
+        android:label="CAT ENGLISH"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/menu_inbox"
+        android:name="com.uef.appenglish123.fragment.InboxFragment"
+        android:label="CAT ENGLISH"
+        tools:layout="@layout/fragment_inbox" />
+
+</navigation>

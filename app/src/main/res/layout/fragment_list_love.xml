@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ListLoveFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_tym2"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TỪ VỰNG YÊU THÍCH"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:background="@drawable/type_button_signup"
+            android:backgroundTint="#F1CFC0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp"
+        android:background="#AD7FD6">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chú thích:"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="#ffff00"
+                android:text="Danh từ"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="#ff33ff"
+                android:text="Tính từ"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="#00ff00"
+                android:text="Động từ"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="#6699ff"
+                android:text="Trạng từ"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylcerListLove"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Flashcard"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/type_button_login"
+            android:backgroundTint="#DC8484"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Puzzle"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/type_button_login"
+            android:backgroundTint="#A984DC"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quiz"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:background="@drawable/type_button_login"
+            android:backgroundTint="#84DCC0"/>
+    </LinearLayout>
+
+</FrameLayout>

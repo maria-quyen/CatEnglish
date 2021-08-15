@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/tvEditComment"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Your comment"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp">
+        <Button
+            android:id="@+id/btnUpdateComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:background="@drawable/type_button_login"
+            android:backgroundTint="#2FBBDF"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/btnCancelComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:background="@drawable/type_button_login"
+            android:backgroundTint="#F36333"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

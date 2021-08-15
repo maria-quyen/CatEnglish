@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+    <ProgressBar
+        android:id="@+id/progressBarScore"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/bbb"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/aaa"
+        android:textAlignment="center"
+        android:progress="0"/>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_TenBaiTest"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="Bài test 1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

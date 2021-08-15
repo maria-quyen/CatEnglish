@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/rivHinhComment"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bg_super_cat"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        app:riv_oval="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/tvTenTKComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên tài khoản"
+            android:textSize="25dp"
+            android:textColor="#FF7700"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:id="@+id/tvComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung bình luận"
+            android:textColor="#000000"
+            android:textSize="22dp"/>
+    </LinearLayout>
+
+</LinearLayout>
